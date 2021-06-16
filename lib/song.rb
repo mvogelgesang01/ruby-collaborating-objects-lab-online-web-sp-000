@@ -6,8 +6,6 @@ class Song
     @song
   end
 
-  def song
-    Song.all.select {|song| song.artist == self}
   end
 
   def self.new_by_filename(file)
