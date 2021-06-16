@@ -3,9 +3,6 @@ class Song
 
   def initialize(name)
     @name = name
-    @song
-  end
-
   end
 
   def self.new_by_filename(file)
@@ -21,5 +18,4 @@ class Song
     self.artist = artist
     artist.add_song(self)
   end
-end
 end
